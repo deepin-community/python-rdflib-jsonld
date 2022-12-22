@@ -1,0 +1,81 @@
+python-rdflib-jsonld (0.6.1-1) unstable; urgency=medium
+
+  [ Michael R. Crusoe ]
+  * Move source package to DPMT.
+  * New (and final) upstream release. Closes: #997634
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Sun, 07 Nov 2021 15:40:45 +0100
+
+python-rdflib-jsonld (0.5.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.5.0 (routine-update)
+  * debian/patches/try-older-rdflib: no longer needed
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * add ${sphinxdoc:Depends}
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Sat, 11 Apr 2020 14:19:10 +0200
+
+python-rdflib-jsonld (0.4.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * Drop Python2 support
+    Closes: #938123
+  * debhelper-compat 12
+  * Standards-Version: 4.4.0
+
+ -- Andreas Tille <tille@debian.org>  Wed, 04 Sep 2019 16:33:47 +0200
+
+python-rdflib-jsonld (0.4.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * debhelper 11
+  * Point Vcs fields to salsa.debian.org
+  * Standards-Version: 4.2.1
+  * Testsuite: autopkgtest-pkg-python
+  * Secure URI in copyright format
+  * Drop ancient X-Python-Version field
+  * Build-Depends: s/python-sphinx/python3-sphinx/
+
+ -- Andreas Tille <tille@debian.org>  Tue, 30 Oct 2018 08:10:00 +0100
+
+python-rdflib-jsonld (0.4.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Fix cut-n-pasto (thanks for the fix to Adrian Bunk <bunk@debian.org>)
+    Closes: #867453
+  * Standards-Version: 4.1.0 (no changes needed)
+
+ -- Andreas Tille <tille@debian.org>  Thu, 31 Aug 2017 23:09:08 +0200
+
+python-rdflib-jsonld (0.4.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Versioned (Build-)Depends python-rdflib >=4.2.1
+    Closes: #843397
+  * debhelper 10
+  * d/watch: version=4
+
+ -- Andreas Tille <tille@debian.org>  Thu, 08 Dec 2016 12:54:09 +0100
+
+python-rdflib-jsonld (0.4.0-1) unstable; urgency=medium
+
+  * new upstream release
+  * Standards-Version: 3.9.8
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Tue, 24 May 2016 04:09:08 -0700
+
+python-rdflib-jsonld (0.3-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #813827)
+
+ -- Michael R. Crusoe <crusoe@ucdavis.edu>  Fri, 05 Feb 2016 02:18:38 -0800

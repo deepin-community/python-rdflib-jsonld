@@ -1,0 +1,35 @@
+Source: python-rdflib-jsonld
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Section: python
+Testsuite: autopkgtest-pkg-python
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               dh-python,
+               python3-sphinx,
+               python3-setuptools,
+               python3,
+               python3-all,
+               python3-rdflib (>= 4.2.1),
+               python3-html5lib,
+               python3-sparqlwrapper,
+               python3-nose
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-rdflib-jsonld
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-rdflib-jsonld.git
+Homepage: https://github.com/RDFLib/rdflib-jsonld
+Rules-Requires-Root: no
+
+Package: python3-rdflib-jsonld
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         ${sphinxdoc:Depends},
+         python3-rdflib (>= 4.2.1)
+Description: rdflib extension adding JSON-LD parser and serializer in Python 3
+ This parser/serialiser will
+ .
+  - read in an JSON-LD formatted document and create an RDF graph
+  - serialize an RDF graph to JSON-LD formatted output
+ .
+ This is the Python 3 version.

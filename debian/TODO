@@ -1,0 +1,5 @@
+When python3-rdflib 6.x is uploaded, package and upload python-rdflib-jsonld 0.6.1
+
+Once both have migrated to testing, then update to 0.6.2 (the tombstone release that is a no-op)
+
+Once all build-deps have removed their dependency on python3-rdflib-jsonld, the package can be removed from the archive (preferrably before the release of bookworm)
